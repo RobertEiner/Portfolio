@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="icon" type="" href="Favicon/briefcase.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-</head>
+    <script src="https://kit.fontawesome.com/001d669bbb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet"></head>
 <body>
     
     <div class="title-div">
@@ -15,10 +17,13 @@
         <h2>An aspiring programmer</h2>
     </div>
     <div class="intro-div">
-        <h4>Hi there,</h4>
+        <h5>Hi there,</h5>
         <p>I am currently enrolled as a second year student in the Software Engineering And Management bachelors programme at the University of Gothenburg.</p>
     </div>
     <hr>
+    <div class="div-before-projects">
+        <h4>Some of the projects I have been involved in during my time as a student</h4>
+    </div>
     <div class="container">
         <div class="row">
             <div class="column">
@@ -34,9 +39,9 @@
                     <div class="carousel-inner">
                         <!-- ---------------------------------------First carousel item------------------------------------- -->
                         <div class="carousel-item active" data-bs-interval="10000000">
-                            <h3>Distributed systems</h3>
-                            <img src="Images/operative-system.png" alt="">
-                            <p class="ds-info">In this group project we created a distributed system where people can book dentist appointments from different dentist clinics in Gothenburg, Sweden. My main responsibility was the implementation of the Database Model Handler component.</p>
+                            <h3>Distributed Systems</h3>
+                            <img class="img-ds-wd" src="Images/operative-system.png" alt="">
+                            <p class="ds-info">In this group project, we created a distributed system where people can book dentist appointments from different dentist clinics in Gothenburg, Sweden. My main responsibility was the implementation of the Database Model Handler component.</p>
                             <h5 class="p-tech-stack">Tech Stack</h5>
                             <div class="row ds-list">
                                 <div class="col">
@@ -58,18 +63,18 @@
                                     </ul>
                                 </div>
                             </div>
-                            <p>For more information, follow the link below to the Gitlab repository</p>
+                            <p>For more information, follow the link below to the GitHub repository</p>
                             <a href="https://github.com/T-11-Dentistimo/T11-Database-Model-Handler">Follow me</a>
                             <p class="p-card-hide">Hidden P</p>                           
                         </div>
                         <!-- ---------------------------Second carousel item------------------------------------------------ -->
                         <div class="carousel-item" data-bs-interval="10000000">
                             <h3>Web development</h3>
-                            <img src="Images/operative-system.png" alt="">
+                            <img class="img-wd" src="Images/web-development.png" alt="">
                             <p class="ds-info">In this project my group developed a website that facilitates pet adoption. People who want to adopt pets can register and see pets that are available for adoption at different adoption centers. </p>
                             <h5 class="p-tech-stack">Tech Stack</h5>
-                            <div class="row ds-list">
-                                <div class="col">
+                            <div class="row wd-list">
+                                <div class="col div-web-stack">
                                     <p>Frontend</p>
                                     <ul>
                                         <li>Vue.js</li>
@@ -78,7 +83,7 @@
                                         <li>CSS</li>
                                     </ul>
                                 </div>
-                                <div class="col">
+                                <div class="col div-backend-stack">
                                    <p>Backend</p>
                                     <ul>
                                         <li>Node.js with Express.js</li>
@@ -87,19 +92,22 @@
                                     </ul>
                                 </div>
                             </div>
-                            <p>For more information, follow the link below to the Gitlab repository</p>
+                            <p>For more information, follow the link below to the GitHub repository</p>
                             <a href="https://github.com/RobertEiner/Friends-Furryver">Follow me</a>
                             <p class="p-card-hide">Hidden P</p> 
                         </div>
                         <!-- ---------------------------Third carousel item------------------------------------------------ -->
                         <div class="carousel-item" data-bs-interval="10000000">
-                            <!-- <img src="Images/programming.png" alt=""> -->
-                            
-                                <h1>Project #3</h1>
-                                <p>AAAAAAAAAAAAAAAAAAAAA</p>
-                                <p>AAAAAAAAAAAAAAAAAAAAAA</p>
-                                <p class="p-card-hide">Hidden P</p>
-                            
+                            <h3>Terminal system for a clothing store</h3>
+                            <img class="img-java" src="Images/java.png" alt="">
+                            <p class="ds-info">A complete Java based project for a backend system of a store where the user can add, remove, and update items, print reviews and add employees of different types to name a few of the functionalities.</p>
+                            <div class="java-div">
+                                <h5 class="tech-stack-java">Tech Stack</h5>
+                                <p>Java</p>
+                                <p>For more information, follow the link below to the GitHub repository</p>
+                                <a class="follow-me-java" href="https://github.com/RobertEiner/ClothingSystem">Follow me</a>
+                            </div>
+                            <p class="p-card-hide">Hidden P</p> 
                         </div>
                     </div>
                    
@@ -115,11 +123,35 @@
         </div>
 
     </div>
-    <p style="text-align: center;" >hhhhh</p>
-
-
-
-
+    <div class="bottom-container">
+        <div class="bottom-div">
+            Contact me 
+        </div>
+        <div>
+            <a class="a-contact" href="https://www.linkedin.com/in/robert-einer/">LinkedIn</a>
+            <a class="a-contact" href="https://github.com/RobertEiner">GitHub</a>
+            <a class="a-contact" href="mailto:robert_einer@hotmail.com">Email</a>
+            <p class="copyright"><i class="fa-regular fa-copyright"></i> Robert Einer</p>
+            <!-- <a class="a-credits" href="#" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</a> -->
+        </div>
+        <button type="button" class="btn btn-sm btn-outline-primary button-transition" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</button>
+        <div id="credits-modal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>Credits for images/icons</h3>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <a class="a-modal" href="https://www.flaticon.com/free-icons/distribute" title="distribute icons">Distribute icons created by juicy_fish - Flaticon</a>
+                        <a class="a-modal" href="https://www.flaticon.com/free-icons/software-development" title="software development icons">Software development icons created by vectorsmarket15 - Flaticon</a>
+                        <a class="a-modal" href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
+                        <a class="a-modal" href="https://www.flaticon.com/free-icons/bag" title="bag icons">Bag icons created by Dimitry Miroliubov - Flaticon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
