@@ -22,12 +22,14 @@ hr {
   border: dotted #8c95a3 6px;
   border-bottom: none;
   width: 6%;
-  margin: 5% auto;
+  margin: 3% auto;
 }
 
 .div-before-projects {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
+  color: #FAF8F1;
+  
 }
 
 
