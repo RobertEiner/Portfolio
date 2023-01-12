@@ -1,0 +1,64 @@
+body {
+  background-color: #a8c8f5;
+}
+.title-div {
+  text-align: center;
+}
+
+.intro-div {
+  text-align: center;
+}
+
+hr {
+  border: dotted #8c95a3 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+h3 {
+    margin-top: 2%;
+}
+
+.container {
+  text-align: center;
+}
+
+.ds-list {
+  text-align: left;
+}
+
+img {
+  width: 13%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-right: 1%;
+}
+
+.p-card-hide {
+  visibility: hidden;
+}
+
+.carousel-item {
+  background-color: #587cae;
+}
+
+.ds-info {
+  width: 50%;
+  margin: auto;
+}
+
+.p-tech-stack {
+  margin: 1% 27% auto auto;
+}
+
+a {
+  color: #fff;
+  /* outline: none; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7aa6e3;
+}
