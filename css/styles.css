@@ -1,37 +1,93 @@
 body {
   background-color: #a8c8f5;
 }
+
 .title-div {
+  padding-top: 2%;
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #FAF8F1;
 }
 
 .intro-div {
+  padding-top: 2%;
   text-align: center;
+  width: 40%;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
 }
 
 hr {
   border: dotted #8c95a3 6px;
   border-bottom: none;
   width: 6%;
-  margin: 100px auto;
+  margin: 5% auto;
 }
 
+.div-before-projects {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* ------------------------------------- Carousel CSS -------------------------------------------- */
+
+/* General CSS */
+
+.container {
+  margin-bottom: 3%;
+  font-family: 'Quicksand', sans-serif;
+}
 h3 {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .container {
   text-align: center;
 }
 
-.ds-list {
-  text-align: left;
+.carousel-item {
+  background-color: #749fdc;
+  border-radius: 10px;
 }
 
-img {
+
+/* Specific CSS */
+
+.ds-list {
+  text-align: left;
+  width: 50%;
+  margin: auto 30% auto 33%;
+}
+
+.img-ds-wd {
   width: 13%;
   float: left;
   margin-top: 5%;
+  margin-left: 13%;
+  margin-right: 1%;
+}
+
+.wd-list {
+  text-align: left;
+  width: 50%;
+  margin: auto 30% auto 36%;
+}
+
+
+.img-wd {
+  width: 13%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 13%;
+  margin-right: 1%;
+}
+
+.img-java {
+  width: 13%;
+  float: left;
   margin-left: 9%;
   margin-right: 1%;
 }
@@ -40,25 +96,77 @@ img {
   visibility: hidden;
 }
 
-.carousel-item {
-  background-color: #587cae;
-}
-
 .ds-info {
   width: 50%;
   margin: auto;
 }
 
 .p-tech-stack {
-  margin: 1% 27% auto auto;
+  margin: 1% 27% 2% auto;
 }
 
 a {
-  color: #fff;
-  /* outline: none; */
+  color: #FAF8F1;
   text-decoration: none;
 }
 
 a:hover {
+  color: #a8c8f5;
+
+}
+
+.div-backend-stack {
+  margin-right: 20%;
+}
+
+.java-div {
+  margin-right: 23%;
+}
+
+.follow-me-java {
+  margin-left: 30%;
+}
+.follow-me-java:hover {
+  transform: translateY(-10px);
+}
+
+.button-transition {
+  
+  
+}
+.button-transition:hover {
+  transform: translateY(-10px);
+background-color: #749fdc;;
+}
+
+.tech-stack-java {
+  margin-top: 2%;
+}
+
+/* ------------------------------------- Bottom CSS -------------------------------------------- */
+
+.bottom-container {
+  min-height: 100px;
+  background-color: #c3d9f7;
+  text-align: center;
+  padding-bottom: 1%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bottom-div {
+  padding-top: 1%;
+}
+
+.a-contact {
+  margin-right: 1%;
+}
+
+.copyright {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.a-modal {
   color: #7aa6e3;
+  text-align: center;
 }
