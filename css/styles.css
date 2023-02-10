@@ -148,6 +148,10 @@ h3 {
   margin-right: 1%;
 }
 
+.div-web-stack {
+  margin-left: 10%;
+}
+
 
 /*-------------------------- Java ------------------------------*/
 .img-java {
@@ -182,7 +186,7 @@ a:hover {
 }
 
 .div-backend-stack {
-  margin-right: 20%;
+  margin-right: 5%;
 }
 
 .java-div {
@@ -225,7 +229,8 @@ background-color: #f7e5a4a2;;
 .bottom-container {
   min-height: 100px;
   text-align: center;
-  padding-bottom: 1%;
+  /* padding-bottom: 5%; */
+  margin-bottom: 1%;
   font-family: 'Quicksand', sans-serif;
 }
 
