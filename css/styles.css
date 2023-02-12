@@ -1,6 +1,7 @@
 body {
   background-color: #92d0e3;
   background-image: url("../Images/psd.jpeg");
+  background-size: cover;
 }
 
 
@@ -92,7 +93,7 @@ h3 {
   
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .img-ds-wd {
     width: 16%;
     float: left;
