@@ -1,199 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="icon" type="" href="Favicon/briefcase.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://kit.fontawesome.com/001d669bbb.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet"></head>
-<body>
-    
-    <div class="title-div">
-        <h1>I'm Robert</h1>
-        <h2>An aspiring programmer</h2>
+    <link rel="icon" type="" href="Favicon/briefcase.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/001d669bbb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="first-part-div">
+      <div class="title-div">
+        <h1 class="h1-title-div">Hello.</h1>
+      </div>
+      <div id="delayed-welcome">
+        <h1 class="h1-title-div">Welcome.</h1>
+      </div>
+      <div class="intro-div"></div>
+      <!-- <hr> -->
+      <div class="div-before-projects">
+        <!-- <h4 class="last-H4">Some of the projects I have been involved in during my time as a student</h4> -->
+      </div>
     </div>
-    <div class="intro-div">
-        <h5>Hi there,</h5>
-        <p>I am currently enrolled as a second year student in the Software Engineering And Management bachelors programme at the University of Gothenburg.</p>
-    </div>
-    <hr>
-    <div class="div-before-projects">
-        <h4>Some of the projects I have been involved in during my time as a student</h4>
-    </div>
-    <div class="container">
+
+    <div>
+      <div class="bottom-bottom">
+        <div class="second-title">
+          <h4 class="last-H4">
+            These are some of the projects I have been involved in during my
+            time as a student
+          </h4>
+        </div>
+
         <div class="row">
-            <div class="column">
-                <div id="projects-carousel" class="carousel slide" data-bs-ride="carousel">
-                    <button class="carousel-control-prev" type="button" data-bs-target="#projects-carousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#projects-carousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                    <div class="carousel-inner">
-                        <!-- ---------------------------------------First carousel item------------------------------------- -->
-                        <div class="carousel-item active" data-bs-interval="10000000">
-                            <h3>Distributed Systems</h3>
-                            <img class="img-ds-wd" src="Images/operative-system.png" alt="">
-                            <p class="ds-info">In this group project, we created a distributed system where people can book dentist appointments from different dentist clinics in Gothenburg, Sweden. My main responsibility was the implementation of the Database Model Handler component.</p>
-                            <h5 class="p-tech-stack">Tech Stack</h5>
-                            <div class="row ds-list">
-                                <div class="col">
-                                    <p>Frontend</p>
-                                    <ul>
-                                        <li>Vue.js</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>MQTT using Eclipse Mosquitto</li>
-                                    </ul>
-                                </div>
-                                <div class="col">
-                                   <p>Backend</p>
-                                    <ul>
-                                        <li>Express.js</li>
-                                        <li>MongoDB with Mongoose</li>
-                                        <!-- //opossum -->
-                                        <li>Opossum (Circuit breaker lib.)</li>
-                                        <li>MQTT using Eclipse Mosquitto</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <p>For more information, follow the link below to the GitHub repository</p>
-                            <a href="https://github.com/T-11-Dentistimo/T11-Database-Model-Handler">Follow me</a>
-                            <p class="p-card-hide">Hidden P</p>                           
-                        </div>
-                        <!-- ---------------------------Second carousel item------------------------------------------------ -->
-                        <div class="carousel-item" data-bs-interval="10000000">
-                            <h3>Web development</h3>
-                            <img class="img-wd" src="Images/web-development.png" alt="">
-                            <p class="ds-info">In this project my group developed a website that facilitates pet adoption. People who want to adopt pets can register and see pets that are available for adoption at different adoption centers. </p>
-                            <h5 class="p-tech-stack">Tech Stack</h5>
-                            <div class="row wd-list">
-                                <div class="col div-web-stack">
-                                    <p>Frontend</p>
-                                    <ul>
-                                        <li>Vue.js</li>
-                                        <li>BootstrapVue</li>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                    </ul>
-                                </div>
-                                <div class="col div-backend-stack">
-                                   <p>Backend</p>
-                                    <ul>
-                                        <li>Node.js with Express.js</li>
-                                        <li>MongoDB with Mongoose</li>
-                                        <li>Postman API</li>                               
-                                    </ul>
-                                </div>
-                            </div>
-                            <p>For more information, follow the link below to the GitHub repository</p>
-                            <a href="https://github.com/RobertEiner/Friends-Furryver">Follow me</a>
-                            <p class="p-card-hide">Hidden P</p> 
-                        </div>
-                        <!-- ---------------------------Third carousel item------------------------------------------------ -->
-                        <div class="carousel-item" data-bs-interval="10000000">
-                            <h3>Terminal system for a clothing store</h3>
-                            <img class="img-java" src="Images/java.png" alt="">
-                            <p class="ds-info">A complete Java based project for a backend system of a store where the user can add, remove, and update items, print reviews and add employees of different types to name a few of the functionalities.</p>
-                            <div class="java-div">
-                                <h5 class="tech-stack-java">Tech Stack</h5>
-                                <p>Java</p>
-                                <p>For more information, follow the link below to the GitHub repository</p>
-                            </div>
-                            <p class="p-card-hide">Hidden P</p> 
-                            <p class="p-card-hide">Hidden P</p> 
-
-                            <p class="p-card-hide">Hidden P</p> 
-                            <a class="follow-me-java" href="https://github.com/RobertEiner/ClothingSystem">Follow me</a>
-                            <p class="p-card-hide">Hidden P</p> 
-
-                        </div>
-                        <!-- ---------------------------Fourth carousel item------------------------------------------------ -->
-                        <div class="carousel-item" data-bs-interval="10000000">
-                            <h3>Systems development: TankBattle game</h3>
-                            <img class="img-tank" src="Images/game-development.png" alt="">
-                            <p class="ds-info">In this project my group developed a multiplayer game where each player can control a tank through an app and roam around in a moonlike landscape. The goal is to destroy the other player's tank.    </p>
-                            <h5 class="p-tech-stack">Tech Stack</h5>
-                            <div class="row ds-list">
-                                <div class="col ">
-                                    <p>Frontend</p>
-                                    <ul>
-                                        <li>Kotlin (Android Studio)</li>
-                                        <li>Godot & Blender game engine</li>
-                                        <li>MQTT using Eclipse Mosquitto</li>
-                                        <li>SMCE-gd (emulated environment)</li>
-                                        
-                                    </ul>
-                                </div>
-                                <div class="col ">
-                                   <p>Backend</p>
-                                    <ul>
-                                        <li>Java</li>
-                                        <li>C++</li>
-                                        <li>MQTT using Eclipse Mosquitto</li>                               
-                                    </ul>
-                                </div>
-                            </div>
-                            <p>For more information, follow the link below to the GitHub repository</p>
-                            <a href="https://github.com/RobertEiner/TankBattle">Follow me</a>
-                            <p class="p-card-hide">Hidden P</p> 
-                        </div>
-                    </div>
-                   
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active indicator" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="3" class="indicator" aria-label="Slide 4"></button>
-
-                    </div>
-
+          <div class="col-sm-6">
+            <!--*************************************** Distributed card********************************************************-->
+            <div class="card-custom card">
+              <div class="card-body">
+                <h5 class="card-title">Distributed Systems</h5>
+                <!-- <a href="https://www.flaticon.com/free-icons/agile" title="agile icons">Agile icons created by Soremba - Flaticon</a> -->
+                <img
+                  class="project-image"
+                  src="Images/software-development.png"
+                  alt=""
+                />
+                <p class="card-text">
+                  In this group project, we created a distributed system where
+                  people can book dentist appointments from different dentist
+                  clinics in Gothenburg, Sweden. My main responsibility was the
+                  implementation of the Database Model Handler component.
+                </p>
+                <div class="row ds-list">
+                  <div class="col"></div>
                 </div>
+                <button
+                  class="btn-learn-more btn btn-outline-light"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ds-collapse"
+                  aria-expanded="false"
+                  aria-controls="ds-collapse"
+                >
+                  Learn more
+                </button>
+                <div class="collapse" id="ds-collapse">
+                  <div>
+                    <h5 class="tech-stack">Tech Stack</h5>
+                    <div class="row">
+                      <div class="col">
+                        <p>Frontend</p>
+                        <ul class="tech-stack-list">
+                          <li>Vue.js</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>MQTT using Eclipse Mosquitto</li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <p>Backend</p>
+                        <ul class="tech-stack-list">
+                          <li>Express.js</li>
+                          <li>MongoDB with Mongoose</li>
+                          <li>Opossum (Circuit breaker lib.)</li>
+                          <li>MQTT using Eclipse Mosquitto</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p>Follow the link below to the GitHub repository</p>
+                    <a
+                      href="https://github.com/T-11-Dentistimo/T11-Database-Model-Handler"
+                      >Follow me</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-
+          </div>
+          <div class="col-sm-6">
+            <!--*************************************** Web card********************************************************-->
+            <div class="card-custom card">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <!-- <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a> -->
+                <img class="project-image" src="Images/data.png" alt="" />
+                <p class="card-text">
+                  In this project my group developed a website that facilitates
+                  pet adoption. People who want to adopt pets can register and
+                  see pets that are available for adoption at different adoption
+                  centers.
+                </p>
+                <div class="row ds-list">
+                  <div class="col"></div>
+                </div>
+                <button
+                  class="btn-learn-more btn btn-outline-light"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#web-collapse"
+                  aria-expanded="false"
+                  aria-controls="web-collapse"
+                >
+                  Learn more
+                </button>
+                <div class="collapse" id="web-collapse">
+                  <div>
+                    <h5 class="tech-stack">Tech Stack</h5>
+                    <div class="row">
+                      <div class="col">
+                        <p>Frontend</p>
+                        <ul class="tech-stack-list">
+                          <li>Vue.js</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>BootstrapVue</li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <p>Backend</p>
+                        <ul class="tech-stack-list">
+                          <li>Node.js with Express.js</li>
+                          <li>MongoDB with Mongoose</li>
+                          <li>Postman API for testing</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p>Follow the link below to the GitHub repository</p>
+                    <a href="https://github.com/RobertEiner/Friends-Furryver"
+                      >Follow me</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <!--*************************************** Java card********************************************************-->
+            <div class="card-custom card">
+              <div class="card-body">
+                <h5 class="card-title">Clothing Store System</h5>
+                <img class="project-image" src="Images/java.png" alt="" />
+                <p class="card-text">
+                  A complete Java based project for a backend system of a store
+                  where the user can add, remove, and update items, print
+                  reviews and add employees of different types to name a few of
+                  the functionalities
+                </p>
+                <div class="row ds-list">
+                  <div class="col"></div>
+                </div>
+                <button
+                  class="btn-learn-more btn btn-outline-light"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#java-collapse"
+                  aria-expanded="false"
+                  aria-controls="java-collapse"
+                >
+                  Learn more
+                </button>
+                <div class="collapse" id="java-collapse">
+                  <div>
+                    <h5 class="tech-stack">Tech Stack</h5>
+                    <div class="row">
+                      <div class="col">
+                        <p>
+                          This project was developed in intelliJ IDE using only
+                          Java. The test suite in Junit was provided.
+                        </p>
+                        <p>Follow the link below to the GitHub repository</p>
+                        <a
+                          class="follow-me-java"
+                          href="https://github.com/RobertEiner/ClothingSystem"
+                          >Follow me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <!--*************************************** Tank card********************************************************-->
+            <div class="card-custom card">
+              <div class="card-body">
+                <h5 class="card-title">Systems Development: TankBattle game</h5>
+                <!--<a href="https://www.flaticon.com/free-icons/cloud-computing" title="cloud computing icons">Cloud computing icons created by Freepik - Flaticon</a>-->
+                <img class="project-image" src="Images/game.png" alt="" />
+                <p class="card-text">
+                  In this project my group developed a multiplayer game where
+                  each player can control a tank through an app and roam around
+                  in a moonlike landscape. The goal is to destroy the other
+                  player's tank.
+                </p>
+                <div class="row ds-list">
+                  <div class="col"></div>
+                </div>
+                <button
+                  class="btn-learn-more btn btn-outline-light"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#tank-collapse"
+                  aria-expanded="false"
+                  aria-controls="tank-collapse"
+                >
+                  Learn more
+                </button>
+                <div class="collapse" id="tank-collapse">
+                  <div>
+                    <h5 class="tech-stack">Tech Stack</h5>
+                    <div class="row">
+                      <div class="col">
+                        <p>Frontend</p>
+                        <ul class="tech-stack-list">
+                          <li>Kotlin (Android Studio)</li>
+                          <li>Godot & Blender game engine</li>
+                          <li>MQTT using Eclipse Mosquitto</li>
+                          <li>SMCE-gd (emulated environment)</li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <p>Backend</p>
+                        <ul class="tech-stack-list">
+                          <li>Java</li>
+                          <li>C++</li>
+                          <li>MQTT using Eclipse Mosquitto</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p>Follow the link below to the GitHub repository</p>
+                    <a href="https://github.com/RobertEiner/TankBattle"
+                      >Follow me</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
-
-    <!--------------------------------Bottom container------------------------------------->
     <div class="bottom-container">
-        <div class="bottom-div">
-            Contact me 
-        </div>
-        <div>
-            <a class="a-contact" href="https://www.linkedin.com/in/robert-einer/">LinkedIn</a>
-            <a class="a-contact" href="https://github.com/RobertEiner">GitHub</a>
-            <a class="a-contact" href="mailto:robert_einer@hotmail.com">Email</a>
-            <p class="copyright"><i class="fa-regular fa-copyright"></i> Robert Einer</p>
-            <!-- <a class="a-credits" href="#" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</a> -->
-        </div>
-        <button type="button" class="btn btn-sm btn-outline-light button-transition" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</button>
-        <div id="credits-modal" class="modal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Credits for images/icons</h3>
-                    </div>
-                    <div class="modal-body">
-                        
-                        <a class="a-modal" href="https://www.flaticon.com/free-icons/distribute" title="distribute icons">Distribute icons created by juicy_fish - Flaticon</a>
-                        <a class="a-modal" href="https://www.flaticon.com/free-icons/software-development" title="software development icons">Software development icons created by vectorsmarket15 - Flaticon</a>
-                        <a class="a-modal" href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
-                        <a class="a-modal" href="https://www.flaticon.com/free-icons/bag" title="bag icons">Bag icons created by Dimitry Miroliubov - Flaticon</a>
-                        <a class="a-modal" href="https://www.flaticon.com/free-icons/game-development" title="game development icons">Game development icons created by Freepik - Flaticon</a>
-                    </div>
-                </div>
+      <div class="bottom-div">
+        <p class="contact-me">Contact me</p>
+      </div>
+      <div>
+        <a class="a-contact" href="https://www.linkedin.com/in/robert-einer/"
+          >LinkedIn</a
+        >
+        <a class="a-contact" href="https://github.com/RobertEiner">GitHub</a>
+        <a class="a-contact" href="mailto:robert_einer@hotmail.com">Email</a>
+        <p class="copyright">
+          <i class="fa-regular fa-copyright"></i> Robert Einer
+        </p>
+        <!-- <a class="a-credits" href="#" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</a> -->
+      </div>
+      <button
+        type="button"
+        class="credits-button btn btn-sm btn-outline-light"
+        data-bs-toggle="modal"
+        data-bs-target="#credits-modal"
+      >
+        Credits
+      </button>
+      <div id="credits-modal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Credits for images/icons</h3>
             </div>
+            <div class="modal-body">
+              <a
+                class="a-modal"
+                href="https://www.flaticon.com/free-icons/agile"
+                title="agile icons"
+                >Agile icons created by Soremba - Flaticon</a
+              >
+              <a
+                class="a-modal"
+                href="https://www.flaticon.com/free-icons/code"
+                title="code icons"
+                >Code icons created by Freepik - Flaticon</a
+              >
+              <a
+                class="a-modal"
+                href="https://www.flaticon.com/free-icons/java"
+                title="java icons"
+                >Java icons created by Freepik - Flaticon</a
+              >
+              <a
+                class="a-modal"
+                href="https://www.flaticon.com/free-icons/cloud-computing"
+                title="cloud computing icons"
+                >Cloud computing icons created by Freepik - Flaticon</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <script>
+      window.onload = function () {
+        setTimeout("displayWelcome()", 2500);
+      };
+
+      function displayWelcome() {
+        document.getElementById("delayed-welcome").style.visibility = "visible";
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
