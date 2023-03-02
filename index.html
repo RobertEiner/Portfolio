@@ -23,11 +23,12 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="index.js"></script>
   </head>
   <body>
     <div class="first-part-div">
       <div class="title-div">
-        <h1 class="h1-title-div">Hello.</h1>
+        <h1 class="h1-title-div">Hello</h1>
       </div>
       <div id="delayed-welcome">
         <h1 class="h1-title-div">Welcome.</h1>
@@ -53,13 +54,12 @@
             <!--*************************************** Distributed card********************************************************-->
             <div class="card-custom card">
               <div class="card-body">
-                <h5 class="card-title">Distributed Systems</h5>
-                <!-- <a href="https://www.flaticon.com/free-icons/agile" title="agile icons">Agile icons created by Soremba - Flaticon</a> -->
                 <img
                   class="project-image"
                   src="Images/software-development.png"
                   alt=""
                 />
+                <h5 class="card-title">Distributed Systems</h5>
                 <p class="card-text">
                   In this group project, we created a distributed system where
                   people can book dentist appointments from different dentist
@@ -69,21 +69,21 @@
                 <div class="row ds-list">
                   <div class="col"></div>
                 </div>
+              
                 <button
+                  onclick="changeText()"
                   class="btn-learn-more btn btn-outline-light"
                   data-bs-toggle="collapse"
                   data-bs-target="#ds-collapse"
                   aria-expanded="false"
                   aria-controls="ds-collapse"
-                >
-                  Learn more
-                </button>
+                >Learn more</button>
                 <div class="collapse" id="ds-collapse">
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
                       <div class="col">
-                        <p>Frontend</p>
+                        <p class="p-f-b-end">Frontend</p>
                         <ul class="tech-stack-list">
                           <li>Vue.js</li>
                           <li>HTML</li>
@@ -92,7 +92,7 @@
                         </ul>
                       </div>
                       <div class="col">
-                        <p>Backend</p>
+                        <p class="p-f-b-end">Backend</p>
                         <ul class="tech-stack-list">
                           <li>Express.js</li>
                           <li>MongoDB with Mongoose</li>
@@ -115,9 +115,8 @@
             <!--*************************************** Web card********************************************************-->
             <div class="card-custom card">
               <div class="card-body">
-                <h5 class="card-title">Web Development</h5>
-                <!-- <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a> -->
                 <img class="project-image" src="Images/data.png" alt="" />
+                <h5 class="card-title">Web Development</h5>
                 <p class="card-text">
                   In this project my group developed a website that facilitates
                   pet adoption. People who want to adopt pets can register and
@@ -128,20 +127,19 @@
                   <div class="col"></div>
                 </div>
                 <button
-                  class="btn-learn-more btn btn-outline-light"
+                  onclick="changeTextWeb()"
+                  class="web-button btn-learn-more btn btn-outline-light"
                   data-bs-toggle="collapse"
                   data-bs-target="#web-collapse"
                   aria-expanded="false"
                   aria-controls="web-collapse"
-                >
-                  Learn more
-                </button>
+                >Learn more</button>
                 <div class="collapse" id="web-collapse">
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
                       <div class="col">
-                        <p>Frontend</p>
+                        <p class="p-f-b-end">Frontend</p>
                         <ul class="tech-stack-list">
                           <li>Vue.js</li>
                           <li>HTML</li>
@@ -150,7 +148,7 @@
                         </ul>
                       </div>
                       <div class="col">
-                        <p>Backend</p>
+                        <p class="p-f-b-end">Backend</p>
                         <ul class="tech-stack-list">
                           <li>Node.js with Express.js</li>
                           <li>MongoDB with Mongoose</li>
@@ -171,8 +169,8 @@
             <!--*************************************** Java card********************************************************-->
             <div class="card-custom card">
               <div class="card-body">
-                <h5 class="card-title">Clothing Store System</h5>
                 <img class="project-image" src="Images/java.png" alt="" />
+                <h5 class="card-title">Clothing Store System</h5>
                 <p class="card-text">
                   A complete Java based project for a backend system of a store
                   where the user can add, remove, and update items, print
@@ -183,14 +181,13 @@
                   <div class="col"></div>
                 </div>
                 <button
-                  class="btn-learn-more btn btn-outline-light"
+                  onclick="changeTextJava()"
+                  class="java-button btn-learn-more btn btn-outline-light"
                   data-bs-toggle="collapse"
                   data-bs-target="#java-collapse"
                   aria-expanded="false"
                   aria-controls="java-collapse"
-                >
-                  Learn more
-                </button>
+                >Learn more</button>
                 <div class="collapse" id="java-collapse">
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
@@ -217,9 +214,8 @@
             <!--*************************************** Tank card********************************************************-->
             <div class="card-custom card">
               <div class="card-body">
-                <h5 class="card-title">Systems Development: TankBattle game</h5>
-                <!--<a href="https://www.flaticon.com/free-icons/cloud-computing" title="cloud computing icons">Cloud computing icons created by Freepik - Flaticon</a>-->
                 <img class="project-image" src="Images/game.png" alt="" />
+                <h5 class="card-title">Systems Development: TankBattle game</h5>
                 <p class="card-text">
                   In this project my group developed a multiplayer game where
                   each player can control a tank through an app and roam around
@@ -230,20 +226,19 @@
                   <div class="col"></div>
                 </div>
                 <button
-                  class="btn-learn-more btn btn-outline-light"
+                onclick="changeTextTank()"
+                  class="tank-button btn-learn-more btn btn-outline-light"
                   data-bs-toggle="collapse"
                   data-bs-target="#tank-collapse"
                   aria-expanded="false"
                   aria-controls="tank-collapse"
-                >
-                  Learn more
-                </button>
+                >Learn more</button>
                 <div class="collapse" id="tank-collapse">
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
                       <div class="col">
-                        <p>Frontend</p>
+                        <p class="p-f-b-end">Frontend</p>
                         <ul class="tech-stack-list">
                           <li>Kotlin (Android Studio)</li>
                           <li>Godot & Blender game engine</li>
@@ -252,7 +247,7 @@
                         </ul>
                       </div>
                       <div class="col">
-                        <p>Backend</p>
+                        <p class="p-f-b-end">Backend</p>
                         <ul class="tech-stack-list">
                           <li>Java</li>
                           <li>C++</li>
@@ -283,7 +278,7 @@
         <a class="a-contact" href="https://github.com/RobertEiner">GitHub</a>
         <a class="a-contact" href="mailto:robert_einer@hotmail.com">Email</a>
         <p class="copyright">
-          <i class="fa-regular fa-copyright"></i> Robert Einer
+          <i class="fa-regular fa-copyright"></i> Robert Einer 2023
         </p>
         <!-- <a class="a-credits" href="#" data-bs-toggle="modal" data-bs-target="#credits-modal">Credits</a> -->
       </div>
@@ -331,16 +326,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-      window.onload = function () {
-        setTimeout("displayWelcome()", 2500);
-      };
-
-      function displayWelcome() {
-        document.getElementById("delayed-welcome").style.visibility = "visible";
-      }
-    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
