@@ -21,6 +21,12 @@ body {
   font-size: 8rem;
 }
 
+.h1-title-div-welcome {
+  margin-top: 10%;
+  margin-left: 2%;
+  font-size: 8rem;
+}
+
 #delayed-welcome {
   visibility: hidden;
   font-family: 'Pacifico', cursive;
@@ -57,7 +63,11 @@ hr {
   margin-bottom: 0;
 }
 
-
+@media (max-width: 546px) {
+  .h1-title-div-welcome {
+    visibility: hidden;
+  }
+}
 
 /* ------------------------------------- Carousel CSS -------------------------------------------- */
 
