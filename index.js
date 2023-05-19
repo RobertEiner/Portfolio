@@ -7,6 +7,18 @@ window.onload = function () {
   }
 
 
+function scrollToProjects() {
+  const projectsDiv = document.getElementById("scroll");
+
+  projectsDiv.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollToContactMe() {
+  const contactMeDiv = document.getElementById("scroll-contact-me");
+
+  contactMeDiv.scrollIntoView({behavior: "smooth"});
+}
+
 //   Change text on card buttons
 function changeText() {
     const button = document.querySelector(".btn-learn-more");

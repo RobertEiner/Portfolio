@@ -8,17 +8,36 @@ body {
   height: 800px;
 }
 
+/* Keep whitespace from appearing on right side */
+#scroll {
+  overflow-x: hidden;
+}
+
 .title-div {
   padding-top: 1%;
-  text-align: left;
+  text-align: center;
   font-family: 'Pacifico', cursive;
-  color: #edc01c;
+  color: #ec972f;
+}
+
+
+.welcome-button {
+  color: #ec972f;
+  border-color: #ec972f;
+  margin: 0.5%;
+  
+}
+
+.welcome-button:hover {
+  background-color: #ec972f;
+  border-color: #ec972f;
+  
 }
 
 .h1-title-div {
   margin-top: 10%;
   margin-left: 2%;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 .h1-title-div-welcome {
@@ -27,12 +46,6 @@ body {
   font-size: 8rem;
 }
 
-#delayed-welcome {
-  visibility: hidden;
-  font-family: 'Pacifico', cursive;
-  color: #edc01c;
-
-}
 
 .intro-div {
   /* padding-top: 1%; */
@@ -232,7 +245,7 @@ a:hover {
 
 
 .bottom-bottom {
-  background-color: rgb(0, 0, 0);
+  background-color: #0c0b0b;
   font-family: 'Quicksand', sans-serif;
 
 }
