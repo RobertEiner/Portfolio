@@ -43,10 +43,11 @@
     <div id="scroll">
       <div class="bottom-bottom">
         <div class="second-title">
-          <h4 class="last-H4">
+          <h4 class="group-projects-h4">
             These are some of the projects I have been involved in during my
             time as a student
           </h4>
+          <hr class="group-projects-hr">
         </div>
 
         <div class="row">
@@ -72,7 +73,7 @@
               
                 <button
                   onclick="changeText()"
-                  class="btn-learn-more btn btn-outline-light"
+                  class="btn-learn-more btn btn-outline-warning"
                   data-bs-toggle="collapse"
                   data-bs-target="#ds-collapse"
                   aria-expanded="false"
@@ -82,30 +83,35 @@
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
-                      <div class="col">
+                      <div class="col-sm-4">
                         <p class="p-f-b-end">Frontend</p>
-                        <ul class="tech-stack-list">
-                          <li>Vue.js</li>
-                          <li>HTML</li>
-                          <li>CSS</li>
-                          <li>MQTT using Eclipse Mosquitto</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Vue.js</p>
+                        <p>BootstrapVue</p>
+                        <p>HTML</p>
                       </div>
-                      <div class="col">
+                      <div class="col-sm-4">
                         <p class="p-f-b-end">Backend</p>
-                        <ul class="tech-stack-list">
-                          <li>Express.js</li>
-                          <li>MongoDB with Mongoose</li>
-                          <li>Opossum (Circuit breaker lib.)</li>
-                          <li>MQTT using Eclipse Mosquitto</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Node.js/Express</p>
+                        <p>Opossum</p>
+                        <p>MQTT</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <p class="p-f-b-end">DBMS</p>
+                        <hr class="cards-hr">
+                        <p>MongodDB</p>
+                        
                       </div>
                     </div>
-                    <p>Follow the link below to the GitHub repository</p>
-                    <a
+                    <!-- <p>Follow the link below to the GitHub repository</p> -->
+                    <div class="github-ref">
+                      <hr class="github-hr">
+                      <a 
                       href="https://github.com/T-11-Dentistimo/T11-Database-Model-Handler"
-                      >Follow me</a
-                    >
+                      >GitHub</a>                     
+
+                    </div>
                   </div>
                 </div>
               </div>
@@ -128,7 +134,7 @@
                 </div>
                 <button
                   onclick="changeTextWeb()"
-                  class="web-button btn-learn-more btn btn-outline-light"
+                  class="web-button btn-learn-more btn btn-outline-warning"
                   data-bs-toggle="collapse"
                   data-bs-target="#web-collapse"
                   aria-expanded="false"
@@ -136,30 +142,35 @@
                 >Learn more</button>
                 <div class="collapse" id="web-collapse">
                   <div>
-                    <h5 class="tech-stack">Tech Stack</h5>
+                    <h5 class="tech-stack">Tech Stack (MEVN)</h5>
                     <div class="row">
-                      <div class="col">
+                      <div class="col-sm-4">
                         <p class="p-f-b-end">Frontend</p>
-                        <ul class="tech-stack-list">
-                          <li>Vue.js</li>
-                          <li>HTML</li>
-                          <li>CSS</li>
-                          <li>BootstrapVue</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Vue.js</p>
+                        <p>BootstrapVue</p>
                       </div>
-                      <div class="col">
+                      <div class="col-sm-4">
                         <p class="p-f-b-end">Backend</p>
-                        <ul class="tech-stack-list">
-                          <li>Node.js with Express.js</li>
-                          <li>MongoDB with Mongoose</li>
-                          <li>Postman API for testing</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Node.js/Express</p>
+                        <p>Postman API</p>
+                      </div>
+                      <div class="col-sm-4">
+                        <p class="p-f-b-end">DBMS</p>
+                        <hr class="cards-hr">
+                        <p>MongodDB</p>
+                        
                       </div>
                     </div>
-                    <p>Follow the link below to the GitHub repository</p>
-                    <a href="https://github.com/RobertEiner/Friends-Furryver"
-                      >Follow me</a
-                    >
+                    <!-- <p>Follow the link below to the GitHub repository</p> -->
+                    <div class="github-ref">
+                      <hr class="github-hr">
+                      <a 
+                      href="https://github.com/RobertEiner/Friends-Furryver"
+                      >GitHub</a>                     
+
+                    </div>
                   </div>
                 </div>
               </div>
@@ -182,7 +193,7 @@
                 </div>
                 <button
                   onclick="changeTextJava()"
-                  class="java-button btn-learn-more btn btn-outline-light"
+                  class="java-button btn-learn-more btn btn-outline-warning"
                   data-bs-toggle="collapse"
                   data-bs-target="#java-collapse"
                   aria-expanded="false"
@@ -193,16 +204,18 @@
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
                       <div class="col">
+                        <hr class="java-card-hr">
                         <p>
-                          This project was developed in intelliJ IDE using only
+                          This project was developed using only
                           Java. The test suite in Junit was provided.
                         </p>
-                        <p>Follow the link below to the GitHub repository</p>
-                        <a
-                          class="follow-me-java"
+                        <div class="github-ref">
+                          <hr class="github-hr">
+                          <a 
                           href="https://github.com/RobertEiner/ClothingSystem"
-                          >Follow me</a
-                        >
+                          >GitHub</a>                     
+    
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -227,7 +240,7 @@
                 </div>
                 <button
                 onclick="changeTextTank()"
-                  class="tank-button btn-learn-more btn btn-outline-light"
+                  class="tank-button btn-learn-more btn btn-outline-warning"
                   data-bs-toggle="collapse"
                   data-bs-target="#tank-collapse"
                   aria-expanded="false"
@@ -237,28 +250,31 @@
                   <div>
                     <h5 class="tech-stack">Tech Stack</h5>
                     <div class="row">
-                      <div class="col">
+                      <div class="col-sm-6">
                         <p class="p-f-b-end">Frontend</p>
-                        <ul class="tech-stack-list">
-                          <li>Kotlin (Android Studio)</li>
-                          <li>Godot & Blender game engine</li>
-                          <li>MQTT using Eclipse Mosquitto</li>
-                          <li>SMCE-gd (emulated environment)</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Kotlin</p>
+                        <p>Godot Game Engine</p>
+                        <p>MQTT</p>
+                        <p>SMCE-gd (emulated evnvironment)</p>
                       </div>
-                      <div class="col">
+                      <div class="col-sm-6">
                         <p class="p-f-b-end">Backend</p>
-                        <ul class="tech-stack-list">
-                          <li>Java</li>
-                          <li>C++</li>
-                          <li>MQTT using Eclipse Mosquitto</li>
-                        </ul>
+                        <hr class="cards-hr">
+                        <p>Java</p>
+                        <p>C++</p>
+                        <p>MQTT</p>
                       </div>
+                      
                     </div>
-                    <p>Follow the link below to the GitHub repository</p>
-                    <a href="https://github.com/RobertEiner/TankBattle"
-                      >Follow me</a
-                    >
+                    <!-- <p>Follow the link below to the GitHub repository</p> -->
+                    <div class="github-ref">
+                      <hr class="github-hr">
+                      <a 
+                      href="https://github.com/RobertEiner/TankBattle"
+                      >GitHub</a>                     
+
+                    </div>
                   </div>
                 </div>
               </div>
@@ -266,6 +282,53 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- ------------------------------------------------------ Solo Projects -------------------------------------------------------------------- -->
+    <div class="solo-projects row">
+      <h4 class="h4-solo">Solo projects</h4>
+      <div>
+        <hr class="solo-projects-hr">
+
+      </div>
+      <!--*************************************** Circulate********************************************************-->
+      <div class="col-sm-6 c-left-div">
+            <img src="Images/sync.png" class="circulate-img" alt="">
+            <h1>Circulate</h1>
+            <p>In progress...</p>
+          </div>
+          <div class="col-sm-6 c-right-div">
+              <p class="circulate-description">Circulate is a concept for a website where users can buy and sell second hand items, everything from clothes to electronics.</p>
+              <p class="c-f-b-stack">Tech stack (PERN)</p>
+              <div class="row">
+                <div class="col-sm-4 ">
+                  <p class="c-f-b-stack">Frontend</p>
+                  <hr class="stack-hr">
+                  <p>React.js</p>
+                  <p>Bootstrap</p>
+
+                </div>
+                <div class="col-sm-4">
+                  <p class="c-f-b-stack">DBMS</p>
+                  <hr class="stack-hr">
+                  <p>PostgreSQL</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="c-f-b-stack">Backend</p>
+                  <hr class="stack-hr">
+                  <p>Node.js</p>
+                  <p>Express</p>
+            
+
+                </div>
+                <div class="github-ref">
+                  <!-- <hr class="github-hr"> -->
+                  <a 
+                  href="https://github.com/RobertEiner/Circulate"
+                  >GitHub</a>                     
+
+                </div>
+              </div>
+             
     </div>
     <div id="scroll-contact-me" class="bottom-container">
       <div class="bottom-div">
@@ -284,7 +347,7 @@
       </div>
       <button
         type="button"
-        class="credits-button btn btn-sm btn-outline-light"
+        class="credits-button btn btn-sm btn-outline-dark"
         data-bs-toggle="modal"
         data-bs-target="#credits-modal"
       >
@@ -321,6 +384,8 @@
                 title="cloud computing icons"
                 >Cloud computing icons created by Freepik - Flaticon</a
               >
+              <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
+              <a href="https://www.flaticon.com/free-icons/circulation" title="circulation icons">Circulation icons created by Noplubery - Flaticon</a>
             </div>
           </div>
         </div>
