@@ -241,6 +241,13 @@ body {
   margin: 10% 0 3% 0;
 }
 
+.mini-arcade-img {
+  transform: rotate(25deg);
+  width: 20%;
+  margin-top: 5%;
+  /* position: absolute; */
+}
+
 /* ---------- Circulate ----------- */
 
 
