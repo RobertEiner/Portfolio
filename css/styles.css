@@ -192,7 +192,7 @@ body {
 
 /* ---------- MiniArcade ----------- */
 .c-left-div {
-  background-color: #ffdd957d;
+  background-color: #ffdd9554;
   /* margin: 2% 0; */
   
 }
@@ -200,7 +200,7 @@ body {
 .c-right-div {
   background-color: #fffae697;
   /* margin: 2% 0; */
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
 
