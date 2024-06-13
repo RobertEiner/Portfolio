@@ -186,25 +186,25 @@ body {
   border-top: 1px solid rgb(9, 9, 9);
   width: 4%;
   box-sizing: border-box;
-  margin: 1% auto;
+  margin: 0 auto 3% auto;
 }
 
 
-/* ---------- Circulate ----------- */
+/* ---------- MiniArcade ----------- */
 .c-left-div {
-  background-color: #fff1d1;
-  margin: 2% 0;
+  background-color: #ffdd957d;
+  /* margin: 2% 0; */
   
 }
 
 .c-right-div {
-  background-color: #f6efdf;
-  margin: 2% 0;
+  background-color: #fffae697;
+  /* margin: 2% 0; */
   padding-bottom: 4%;
 }
 
 
-.circulate-description {
+.solo-description {
   width: 60%;
   margin: 10% auto 3% auto;
 }
@@ -243,12 +243,25 @@ body {
 
 .mini-arcade-img {
   transform: rotate(25deg);
-  width: 20%;
-  margin-top: 5%;
+  width: 18%;
+  margin-top: 1%;
+  margin-bottom: 2%;
   /* position: absolute; */
 }
 
-/* ---------- Circulate ----------- */
+
+
+/* ---------- Cocreate ----------- */
+
+.co-general {
+  /* display: inline-block; */
+}
+
+.cocreate-img {
+  width: 15%;
+  height: 25%;
+  margin-top: 3%;
+}
 
 
 /* ------------------------------------- Bottom container CSS -------------------------------------------- */
